@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="20dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#06114E">
+
+        //logo
+        <ImageView
+            android:id="@+id/jpeg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/tif"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_margin="10dp">
+
+        //NIM
+        <TextView
+            android:id="@+id/txtNim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E41200368"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+        //Nama
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nila"
+            android:textColor="@color/white"/>
+        //Gol
+        <TextView
+            android:id="@+id/txtGol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textColor="@color/white"/>
+
+        //Angkatan
+        <TextView
+            android:id="@+id/txtAngkatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2020"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detailnila"
+    android:background="@drawable/it"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_margin="10dp">
+
+        //NIM
+        <TextView
+            android:id="@+id/txtNim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E41200368"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+        //Nama
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nila"
+            android:textColor="@color/white"/>
+        //Gol
+        <TextView
+            android:id="@+id/txtGol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textColor="@color/white"/>
+
+        //Angkatan
+        <TextView
+            android:id="@+id/txtAngkatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2020"
+            android:textColor="@color/white"/>
+
+        //Ttl
+        <TextView
+            android:id="@+id/txtTtl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Banyuwangi, 16 Desember 2002"
+            android:textColor="@color/white"/>
+
+        //Kelamin
+        <TextView
+            android:id="@+id/txtKelamin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laki-laki/Perempuan"
+            android:textColor="@color/white"/>
+
+        //Email
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nilaa3794@gmail.com"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
